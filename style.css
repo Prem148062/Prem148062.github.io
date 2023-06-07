@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+body {
+  background-image: url("./image/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+
+  height: 100vh;
+  font-weight: bold;
+  font-family: "Roboto";
+  text-align: center;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+.countdown {
+  display: inline-block;
+  font-size: 1.7em;
+  padding: 1em;
+}
+
+.countdown span {
+  display: block;
+  font-size: 5rem;
+}
